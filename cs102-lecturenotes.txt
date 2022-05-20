@@ -1,1 +1,7 @@
-this is my first file in first repository
+ firstly we go to the home folder, and type "ssh -keygen -t RSA" to connect to the GitHub application
+then in it got to the (id_rsa.pub) file and then copy the RSA key and then paste it into the GitHub ssh settings page to
+let GitHub connect to our machine so that we can use only git for the repository editing.
+then we went to the GitHub folder and created a cs102-git essentials file in it and by using "git add cs102-git-essentials.txt" command 
+we saved it. then using the command "git status" we can see that file is not committed, then use the "git commit -m file.exe" command
+we can see it committed then push it to main by using "git push file.exe"
+then we see all the previous versions of that repository by using the command "git log".
